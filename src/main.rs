@@ -115,9 +115,19 @@ fn run_game(board: &mut [[char; 8]; 8]) -> i32 {
         if white_moves.len() == 0 && black_moves.len() == 0 {
             break; // has winner
         } else if black_turn {
-            black_turn = !(white_moves.len() > 0);
+            if white_moves.len() == 0 {
+                println!("W player has no valid move.");
+                black_turn = true;
+            } else {
+                black_turn = false;
+            }
         } else {
-            black_turn = black_moves.len() > 0;
+            if black_moves.len() == 0 {
+                println!("B player has no valid move.");
+                black_turn = false;
+            } else {
+                black_turn = true;
+            }
         }
         let colour = if black_turn { 'B' } else { 'W' };
         let anti_colour = if colour == 'W' { 'B' } else { 'W' };
@@ -175,8 +185,13 @@ fn run_game(board: &mut [[char; 8]; 8]) -> i32 {
 
     if MAKE_MR_BAOCHUN_HAPPY {
         print_board(&board);
-        println!("B player has no valid move.");
-        println!("W player has no valid move.");
+        if black_turn {
+            println!("W player has no valid move.");
+            println!("B player has no valid move.");
+        } else {
+            println!("B player has no valid move.");
+            println!("W player has no valid move.");
+        }
     }
 
     // get scores

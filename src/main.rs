@@ -110,23 +110,27 @@ fn run_game(board: &mut [[char; 8]; 8]) -> i32 {
         // get possible moves
         let white_moves = get_moves(&board, 'W');
         let black_moves = get_moves(&board, 'B');
-
+        
         // check if game is over and determine next turn
         if white_moves.len() == 0 && black_moves.len() == 0 {
             break; // has winner
-        } else if black_turn {
-            if white_moves.len() == 0 {
-                println!("W player has no valid move.");
-                black_turn = true;
+        } else { // does not have winner, prompt for moves
+            print_board(&board);
+            if black_turn {
+                if white_moves.len() == 0 {
+                    println!("W player has no valid move.");
+                    black_turn = true;
+                } else {
+                    black_turn = false;
+                }
             } else {
-                black_turn = false;
-            }
-        } else {
-            if black_moves.len() == 0 {
-                println!("B player has no valid move.");
-                black_turn = false;
-            } else {
-                black_turn = true;
+                print_board(&board);
+                if black_moves.len() == 0 {
+                    println!("B player has no valid move.");
+                    black_turn = false;
+                } else {
+                    black_turn = true;
+                }
             }
         }
         let colour = if black_turn { 'B' } else { 'W' };
@@ -135,7 +139,6 @@ fn run_game(board: &mut [[char; 8]; 8]) -> i32 {
         // get user input
         let (x, y) = loop {
             // print prompt
-            print_board(&board);
             print!("Enter move for colour {} (RowCol): ", colour);
             io::stdout().flush().expect("Failed to flush stdout.");
 
@@ -154,6 +157,7 @@ fn run_game(board: &mut [[char; 8]; 8]) -> i32 {
                 break (x, y);
             } else {
                 println!("Invalid move. Try again.");
+                if MAKE_MR_BAOCHUN_HAPPY { print_board(&board); }
             }
         };
 

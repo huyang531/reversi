@@ -1,0 +1,565 @@
+  abcdefgh
+a ........
+b ........
+c ........
+d ...WB...
+e ...BW...
+f ........
+g ........
+h ........
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ........
+c ........
+d ...WB...
+e ...BB...
+f ....B...
+g ........
+h ........
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ........
+c ........
+d ...WWW..
+e ...BB...
+f ....B...
+g ........
+h ........
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ........
+c ...B....
+d ...BWW..
+e ...BB...
+f ....B...
+g ........
+h ........
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ........
+c ...B....
+d ...BWW..
+e ...BW...
+f ....W...
+g ....W...
+h ........
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ........
+c ...B....
+d ...BWW..
+e ...BB...
+f ....WB..
+g ....W...
+h ........
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ........
+c ...B....
+d ..WWWW..
+e ...WB...
+f ....WB..
+g ....W...
+h ........
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ........
+c ...B....
+d ..WBWW..
+e ...BB...
+f ...BBB..
+g ....W...
+h ........
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ........
+c ...B....
+d ..WBWW..
+e ...BW...
+f ...WBB..
+g ..W.W...
+h ........
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ........
+c ...BB...
+d ..WBBW..
+e ...BB...
+f ...WBB..
+g ..W.W...
+h ........
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ....W...
+c ...WW...
+d ..WBWW..
+e ...BW...
+f ...WWB..
+g ..W.W...
+h ........
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ....W...
+c ...WW...
+d ..WBWW..
+e ...BBB..
+f ...WWB..
+g ..W.W...
+h ........
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ....W...
+c ...WW...
+d ..WBWW..
+e ...BBW..
+f ...WWWW.
+g ..W.W...
+h ........
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ....W...
+c ...WWB..
+d ..WBBW..
+e ...BBW..
+f ...WWWW.
+g ..W.W...
+h ........
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ....W...
+c ...WWB..
+d ..WWBW..
+e ..WWWW..
+f ...WWWW.
+g ..W.W...
+h ........
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ....W...
+c ...WWB..
+d ..WWBW..
+e ..WBWW..
+f ..BWWWW.
+g ..W.W...
+h ........
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ....WW..
+c ...WWW..
+d ..WWBW..
+e ..WBWW..
+f ..BWWWW.
+g ..W.W...
+h ........
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ....WW..
+c ...WWW..
+d ..WWBW..
+e ..WBWW..
+f ..BWWWW.
+g ..B.W...
+h ..B.....
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ....WW..
+c ...WWW..
+d ..WWWW..
+e ..WWWW..
+f ..WWWWW.
+g .WB.W...
+h ..B.....
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ....WW..
+c ..BWWW..
+d ..BWWW..
+e ..BWWW..
+f ..BWWWW.
+g .WB.W...
+h ..B.....
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d ..WWWW..
+e ..BWWW..
+f ..BWWWW.
+g .WB.W...
+h ..B.....
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d ..WWWW..
+e ..BWWW..
+f ..BWWWW.
+g .BB.W...
+h B.B.....
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d ..WWWW..
+e ..WWWW..
+f .WWWWWW.
+g .BB.W...
+h B.B.....
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d ..WWWW..
+e B.WWWW..
+f .BWWWWW.
+g .BB.W...
+h B.B.....
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d ..WWWW..
+e B.WWWW..
+f WWWWWWW.
+g .BB.W...
+h B.B.....
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d ..WWWW..
+e B.WWWW..
+f BWWWWWW.
+g BBB.W...
+h B.B.....
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d ..WWWW..
+e B.WWWW..
+f BWWWWWW.
+g BWW.W...
+h BWB.....
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d ..WWWW..
+e B.WWWW..
+f BWWWWWW.
+g BBBBW...
+h BWB.....
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d ..WWWW..
+e B.WWWW..
+f BWWWWWW.
+g BBWWW...
+h BWWW....
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d ..WWWW..
+e B.WWWW..
+f BWWWWWW.
+g BBWWW...
+h BBBBB...
+W player has no valid move.
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d ..WWWW..
+e B.WWWW..
+f BWWWWWW.
+g BBBBBB..
+h BBBBB...
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d ..WWWW..
+e B.WWWW..
+f BWWWWWW.
+g BBBBWW..
+h BBBBBW..
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d ..WWWW..
+e B.WWWW..
+f BWWWWWW.
+g BBBBWW..
+h BBBBBBB.
+W player has no valid move.
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d ..WWWW..
+e BBWWWW..
+f BBBWWWW.
+g BBBBWW..
+h BBBBBBB.
+W player has no valid move.
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d .BWWWW..
+e BBBWWW..
+f BBBBWWW.
+g BBBBBW..
+h BBBBBBB.
+Enter move for colour W (RowCol):   abcdefgh
+a ........
+b ....WW..
+c .WWWWW..
+d WWWWWW..
+e BBBWWW..
+f BBBBWWW.
+g BBBBBW..
+h BBBBBBB.
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b ....WW..
+c BWWWWW..
+d BBWWWW..
+e BBBWWW..
+f BBBBWWW.
+g BBBBBW..
+h BBBBBBB.
+W player has no valid move.
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b B...WW..
+c BBWWWW..
+d BBBWWW..
+e BBBBWW..
+f BBBBBWW.
+g BBBBBB..
+h BBBBBBB.
+W player has no valid move.
+Enter move for colour B (RowCol):   abcdefgh
+a ........
+b B.B.WW..
+c BBBWWW..
+d BBBWWW..
+e BBBBWW..
+f BBBBBWW.
+g BBBBBB..
+h BBBBBBB.
+Enter move for colour W (RowCol):   abcdefgh
+a .W......
+b B.W.WW..
+c BBBWWW..
+d BBBWWW..
+e BBBBWW..
+f BBBBBWW.
+g BBBBBB..
+h BBBBBBB.
+Enter move for colour B (RowCol):   abcdefgh
+a .W.B....
+b B.B.WW..
+c BBBWWW..
+d BBBWWW..
+e BBBBWW..
+f BBBBBWW.
+g BBBBBB..
+h BBBBBBB.
+Enter move for colour W (RowCol):   abcdefgh
+a .W.B....
+b BWB.WW..
+c BBWWWW..
+d BBBWWW..
+e BBBBWW..
+f BBBBBWW.
+g BBBBBB..
+h BBBBBBB.
+Enter move for colour B (RowCol):   abcdefgh
+a .W.B....
+b BWBBWW..
+c BBBBWW..
+d BBBBWW..
+e BBBBWW..
+f BBBBBWW.
+g BBBBBB..
+h BBBBBBB.
+Enter move for colour W (RowCol):   abcdefgh
+a .WWB....
+b BWBWWW..
+c BBBBWW..
+d BBBBWW..
+e BBBBWW..
+f BBBBBWW.
+g BBBBBB..
+h BBBBBBB.
+Enter move for colour B (RowCol):   abcdefgh
+a .WWBB...
+b BWBBBW..
+c BBBBBW..
+d BBBBBW..
+e BBBBBW..
+f BBBBBWW.
+g BBBBBB..
+h BBBBBBB.
+Enter move for colour W (RowCol):   abcdefgh
+a .WWWWW..
+b BWBBBW..
+c BBBBBW..
+d BBBBBW..
+e BBBBBW..
+f BBBBBWW.
+g BBBBBB..
+h BBBBBBB.
+Enter move for colour B (RowCol):   abcdefgh
+a BWWWWW..
+b BBBBBW..
+c BBBBBW..
+d BBBBBW..
+e BBBBBW..
+f BBBBBWW.
+g BBBBBB..
+h BBBBBBB.
+W player has no valid move.
+Enter move for colour B (RowCol):   abcdefgh
+a BWWWWW..
+b BBBBBW..
+c BBBBBW..
+d BBBBBW..
+e BBBBBW..
+f BBBBBBW.
+g BBBBBBB.
+h BBBBBBB.
+W player has no valid move.
+Enter move for colour B (RowCol):   abcdefgh
+a BWWWWW..
+b BBBBBW..
+c BBBBBW..
+d BBBBBW..
+e BBBBBW..
+f BBBBBBBB
+g BBBBBBB.
+h BBBBBBB.
+Enter move for colour W (RowCol):   abcdefgh
+a BWWWWW..
+b BBBBBW..
+c BBBBBW..
+d BBBBBW..
+e BBBBBW..
+f BBBBBBWB
+g BBBBBBBW
+h BBBBBBB.
+Enter move for colour B (RowCol):   abcdefgh
+a BWWWWW..
+b BBBBBW..
+c BBBBBW..
+d BBBBBW..
+e BBBBBW..
+f BBBBBBWB
+g BBBBBBBB
+h BBBBBBBB
+W player has no valid move.
+Enter move for colour B (RowCol):   abcdefgh
+a BWWWWW..
+b BBBBBW..
+c BBBBBW..
+d BBBBBB..
+e BBBBBBB.
+f BBBBBBBB
+g BBBBBBBB
+h BBBBBBBB
+W player has no valid move.
+Enter move for colour B (RowCol):   abcdefgh
+a BWWWWW..
+b BBBBBW..
+c BBBBBB..
+d BBBBBBB.
+e BBBBBBB.
+f BBBBBBBB
+g BBBBBBBB
+h BBBBBBBB
+Enter move for colour W (RowCol):   abcdefgh
+a BWWWWW..
+b BBBBWW..
+c BBBBBW..
+d BBBBBBW.
+e BBBBBBBW
+f BBBBBBBB
+g BBBBBBBB
+h BBBBBBBB
+Enter move for colour B (RowCol):   abcdefgh
+a BWWWWW..
+b BBBBWW..
+c BBBBBW..
+d BBBBBBBB
+e BBBBBBBB
+f BBBBBBBB
+g BBBBBBBB
+h BBBBBBBB
+W player has no valid move.
+Enter move for colour B (RowCol):   abcdefgh
+a BWWWWW..
+b BBBBWW..
+c BBBBBBB.
+d BBBBBBBB
+e BBBBBBBB
+f BBBBBBBB
+g BBBBBBBB
+h BBBBBBBB
+W player has no valid move.
+Enter move for colour B (RowCol):   abcdefgh
+a BWWWWW..
+b BBBBBBB.
+c BBBBBBB.
+d BBBBBBBB
+e BBBBBBBB
+f BBBBBBBB
+g BBBBBBBB
+h BBBBBBBB
+Enter move for colour W (RowCol):   abcdefgh
+a BWWWWW..
+b BBBBBBW.
+c BBBBBBBW
+d BBBBBBBB
+e BBBBBBBB
+f BBBBBBBB
+g BBBBBBBB
+h BBBBBBBB
+Enter move for colour B (RowCol):   abcdefgh
+a BWWWWW.B
+b BBBBBBB.
+c BBBBBBBW
+d BBBBBBBB
+e BBBBBBBB
+f BBBBBBBB
+g BBBBBBBB
+h BBBBBBBB
+W player has no valid move.
+Enter move for colour B (RowCol):   abcdefgh
+a BWWWWW.B
+b BBBBBBBB
+c BBBBBBBB
+d BBBBBBBB
+e BBBBBBBB
+f BBBBBBBB
+g BBBBBBBB
+h BBBBBBBB
+W player has no valid move.
+Enter move for colour B (RowCol):   abcdefgh
+a BBBBBBBB
+b BBBBBBBB
+c BBBBBBBB
+d BBBBBBBB
+e BBBBBBBB
+f BBBBBBBB
+g BBBBBBBB
+h BBBBBBBB
+W player has no valid move.
+B player has no valid move.
+Black wins by 64 points!
